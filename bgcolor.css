@@ -1,0 +1,12 @@
+/*
+    Background Color : #cc99ff
+    Title Color : #996633
+    Text Color : #666666
+    Text Dark Color : #333333
+*/
+body {
+    background-color: rgba(255, 165, 80, 0.726);
+    color: rgb(5, 3, 0);
+    font-family:"Franklin Gothic Medium", 'Arial Narrow', Arial, sans-serif;
+    text-decoration: black;
+}
