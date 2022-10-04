@@ -4,6 +4,9 @@
     font-family: sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 .hero{
     position: relative;
     background-color: bisque; 
@@ -141,10 +144,21 @@ h2{
     text-align: center;
     align-items:baseline;
 }
-table{
-    display:flow-root;
+.table{
+    display:flex;
     flex-direction: column;
     align-content: space-around;
+    font-family:sans-serif;
+}
+th{
+    font-family: gill sans;
+}
+td {
+    font-style: normal;
+    font-family: Arial;
+    font-variant:normal;
+    text-align:center;
+    
 }
 .contact{
     display:flex;
