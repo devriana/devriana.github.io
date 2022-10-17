@@ -1,83 +1,98 @@
 <html>
-    
-    <head>
-        <style>
-            body {
-                background-color: bisque;
-            }
-            .paragraph {
-                font-family: sans-serif;
-                font-style:italic;
-            }
-            .hero{
-                position: relative;
-                background-color: bisque; 
-            }
 
-            nav{
-                display:flex;
-                overflow: hidden;
-                background-color: burlywood;
-                justify-content:end;
-             }
- 
-            nav ul li{
-                display:inline-table;
-                list-style:none;
-                font-size: 1.1rem;
-                margin: 5px 15px;
-            }
+<head>
+    <style>
+        body {
+            background-color:cadetblue;
+        }
 
-            nav ul li a{
-                text-decoration: none;
-                color: black;
-                font-weight: bold;
-                padding: 14px 16px;
-            }
+        .paragraph {
+            font-family: sans-serif;
+            font-style: italic;
+        }
 
-            nav ul li a:hover{
-                background-color: azure;
-                color:coral;
-            }
-        </style>
-        <title>My Profil</title> 
-        <link href="bgcolor.css" rel="stylesheet"/>
-    </head>
-    <body>
-        <div class="hero"></div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Biodata</a></li>
-                <li><a href="portofolio.html">Portofolio</a></li>
-            </ul>
-        </nav>
-        <h1> Devi Riana Meihesty</h1>
-        <img src="mypict.jpg" width="125" height="100">
-        <h2>About Me</h2>
-         </h2>
-        <p class="paragraph">Hai!! Saya seorang Mahasiswa jurusan sistem informasi di salah satu Universitas swasta Kota Medan, saat ini saya
-        sudah menginjak semester 7 dan sedang menunggu ACC judul tugas akhir :) Saya tergolong orang yang introvert,
-        tapi tidak selalu begitu. Tidak boros dalam berbicara adalah salah satu sifat dan sikap saya saat menghadapi
-        orang lain di kondisi tertentu. Saya aktif dalam organisasi kampus, bahkan saya juga tertarik akan public speaking.</p>
+        .hero {
+            position: relative;
+            background-color: bisque;
+        }
 
-        <h2>Keahlian Saya</h2>
-         <ol>
-            <li>SAP Software</li>
-            <li>SQL Server Management</li>
-            <li>Microsoft Word, Excel, dan Power point</li>
-            <li>Microsoft Visio</li>
-            <li>Adobe XD</li>
-            </ol>
-        
-         <h2>Pendidikan Saya</h2>
+        nav{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color:darkslategray;
+        position: sticky;
+        top: 0;
+        }
+
+        nav ul{
+            display: flex;
+            list-style: none;
+            margin: 20px 0px;
+        }
+
+        nav ul li{
+            font-family: century;
+            font-size: 1.5rem;
+            font-weight:bold;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color:burlywood;
+            padding: 7px 25px;
+            transition: all .5s ease;
+        }
+
+        nav ul li a:hover{
+            background-color:azure;
+            color:black;
+            box-shadow: 0 0 10px white;
+
+        }
+    </style>
+    <title>My Profil</title>
+    <link href="bgcolor.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="hero"></div>
+    <nav>
         <ul>
-            <li>2019-Present: S1 Sistem Informasi/Universitas Mikroskil </li>
-            <li>2016-2019: SMA Swasta RK Deli Murni Sibolangit</li>
-            <li>2013-2016: SMP Negeri 2 Sibolangit</li>
+            <li><a href="index.html">Biodata</a></li>
+            <li><a href="portofolio.html">Portofolio</a></li>
         </ul>
+    </nav>
+    <h1> Devi Riana Meihesty</h1>
+    <img src="mypict.jpg" width="125" height="100">
+    <h2>About Me</h2>
+    </h2>
+    <p class="paragraph">Hai!! Saya seorang Mahasiswa jurusan sistem informasi di salah satu Universitas swasta Kota
+        Medan. Saya tergolong orang yang introvert. Tidak boros dalam berbicara adalah salah
+        satu sifat dan sikap saya saat menghadapi orang lain di kondisi tertentu. Saya suka seni, seperti seni lukis dan
+        membuat kerajinan. Memdengarkan musik saat sedang melakukan pekerjaan atau saat mengerjakan tugas adalah hobi
+        saya, dengan begitu setiap pekerjaan dan tugas yang saya kerjakan akan terasa lebih mudah. Saya aktif dalam
+        organisasi kampus dan tertarik akan public speaking, karna itu saya juga suka menjadi MC ataupun
+        moderator di kegiatan organisasi atau acara webinar.</p>
 
-        <h2>Kontak/Sosial Media</h2>
-        <a href="https://www.instagram.com/devvriana_/?igshid=YmMyMTA2M2Y%3D">instagram</a>
-    </body>
+    <h2>Keahlian Saya</h2>
+    <ol>
+        <li>SAP Software</li>
+        <li>SQL Server Management</li>
+        <li>Microsoft Word, Excel, dan Power point</li>
+        <li>Microsoft Visio</li>
+        <li>Adobe XD</li>
+    </ol>
+
+    <h2>Pendidikan Saya</h2>
+    <ul>
+        <li>2019-Present: S1 Sistem Informasi/Universitas Mikroskil </li>
+        <li>2016-2019: SMA Swasta RK Deli Murni Sibolangit</li>
+        <li>2013-2016: SMP Negeri 2 Sibolangit</li>
+    </ul>
+
+    <h2>Kontak/Sosial Media</h2>
+    <a href="https://www.instagram.com/devvriana_/?igshid=YmMyMTA2M2Y%3D">instagram</a>
+</body>
 
 </html>
