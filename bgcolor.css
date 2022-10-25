@@ -1,10 +1,22 @@
-/*
-    Background Color : #cc99ff
-    Title Color : #996633
-    Text Color : #666666
-    Text Dark Color : #333333
-*/
-body {
-    color: rgb(5, 3, 0);
-    text-decoration: black;
+.image-hero{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.tittle{
+    font-family: 'Raleway', sans-serif;
+}
+.subtitle{
+    letter-spacing: 10px;
+}
+#hero{
+    height: 95vh;
+}
+.text-about{
+    text-indent: 50px;
+    text-align: justify;
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
 }

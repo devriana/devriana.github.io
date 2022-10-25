@@ -18,7 +18,7 @@ nav{
     display:flex;
     justify-content:last baseline;
     align-items:center;
-    background-color:darkslategray;
+    background-color:darkslategrey;
     position: sticky;
     top: 0;
 }
@@ -74,7 +74,7 @@ nav ul li a:hover{
 
 .btn{
     padding: 10px 35px;
-    background-color:burlywood;
+    background-color:darkslategrey;
     color: white;
     transition: .5s ease;
     font-family: century;
@@ -83,8 +83,8 @@ nav ul li a:hover{
 }
 .btn:hover{
     cursor: pointer;
-    background-color: antiquewhite;
-    
+    color:black;
+    background-color: burlywood; 
 }
 /*portofolio*/
 #portofolio{
@@ -104,27 +104,9 @@ nav ul li a:hover{
     height: 240px;
     margin: 10px;
 }
-
-.table{
-    display:flex;
-    flex-direction:column;
-    align-content:center;
-    font-family:sans-serif;
-}
-th{
-    font-family: gill sans;
-}
-td {
-    font-style: normal;
-    font-family: Arial;
-    font-variant:normal;
-    text-align:center;
-    
-}
 .contact{
     display:flex;
     flex-direction: column;
-    text-align: center;
     padding: 30px;
 }
 
